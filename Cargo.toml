@@ -1,0 +1,15 @@
+[package]
+name = "cosmos-grpc-validator-delegations"
+authors = ["Sascha1074 <1337@wasm.host>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tonic = { version = "0.11", features = ["default", "tls-webpki-roots"] }
+tokio = { version = "1", features = ["full"] }
+cosmos-sdk-proto = { version = "0.22", features = [
+    # "cosmwasm",
+    "grpc-transport",
+] }
+csv = "1.3.0"
+thiserror = "1.0.61"
