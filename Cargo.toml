@@ -1,5 +1,5 @@
 [package]
-name = "cosmos-grpc-validator-delegations"
+name = "rustgrpc-cosmos-delegations"
 authors = ["Sascha1074 <1337@wasm.host>"]
 version = "0.1.0"
 edition = "2021"

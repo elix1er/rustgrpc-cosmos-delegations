@@ -20,8 +20,8 @@ This Rust project fetches validator delegations from a Cosmos-based blockchain (
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/elix1er/rust-grpc-cosmos-delegations.git
-   cd rust-grpc-cosmos-delegations
+   git clone https://github.com/elix1er/rustgrpc-cosmos-delegations.git
+   cd rustgrpc-cosmos-delegations
    ```
 
 2. Build the project:
